@@ -1,0 +1,189 @@
+.arrow{ 
+    font-size: 12px;
+    line-height: 0%;
+}
+
+.navbar ul li:focus-within>ul,
+.navbar ul li:hover>ul{
+    display: initial;
+}
+header label{
+    display: none;
+    font-size: 17pt;
+    color: #ffffff;
+    cursor: pointer;
+}
+.blue{
+    background-image: linear-gradient(to bottom, white 90%, rgb(0, 68, 255) 10%);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 0px;
+    box-shadow: 0.1px 01px 3px rgba(0, 0, 0, 0.165);
+    font-size: 12pt;
+    font-weight: 900;
+
+    margin-top: 13%;
+    margin-left: 9%;
+}
+.blue >a{
+    color: #000000;
+    font-weight: 100;
+    display: block;
+    padding: 4px 10px;
+    text-shadow: 0.1px 0.1px 0.3px rgb(0, 68, 255);
+}
+.blue:hover{
+    background-image: linear-gradient(to bottom, white, white);
+    border: none;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    box-shadow: 1px 1px 3px black;
+}
+.blue>a:hover{
+    color: #000000;
+    text-decoration: underline;
+    text-shadow:  0.1px 0.1px 0.3px rgb(0, 0, 0);
+}
+
+
+
+.nove{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-areas: 
+    'right right right left left'
+    ;
+
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 0px;
+    height: 68.5vh;
+}
+#first_body{
+    grid-area: left;
+    
+    margin-right: 0%;
+    margin-left: 0%;
+    /*font-size: 15pt;
+
+    margin: -40px 80px 60px 140px;*/
+    /*height: 400px;
+    width: 50%;*/
+    
+}
+.info_shoot{
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(191, 191, 191, 0.075);
+    /*border-left: 1px solid rgb(0, 0, 0);*/
+    border-top: 1px solid rgb(0, 0, 0);
+    color: #000000;
+    grid-area: right;
+
+    margin: 20px 0px 50px 20px;
+    padding: 10px;
+    padding-top: 15%;
+    padding-left: 20%;
+
+    /*height: 100%;*/
+}
+.info_shoot>p{
+    margin-top: 10px;
+    font-size: 12pt;
+    font-family: robot;
+    font-weight: 100;
+    text-shadow: 0.2px 0.2px 1px #000000;
+    
+}
+h2.for_header{
+    font-size: 30pt;
+    font-family: Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif;
+    font-weight: 600;
+    
+}
+
+
+#second_body{
+    background-image: linear-gradient(to bottom, #000000e2, #000000e4);
+    display: grid;
+    font-size: 10pt;
+    font-family: Helvetica;
+    font-weight: 500;
+
+    grid-template-areas: 
+    'frist secon third four'
+    ;
+    text-align: center;
+    margin: auto;
+    margin-top: 0%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+    padding: 10% 100px 10% 40px;
+
+}
+.top_primary_style{
+    display: flex;
+}
+.top_secodary_style{
+    display: flex;
+}
+
+#paper{
+    grid-area: frist;
+}
+#technology{
+    grid-area: secon;
+}
+#comunication{
+    grid-area: third;
+}
+#development{
+    grid-area: four;
+}
+
+.up{
+    background-color: #ffffff;
+    box-shadow: 0.1px 0.1px 6px #222;
+    border-right: 4px solid rgba(0, 0, 0, 0.753);
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10%;
+    height: 330px;
+    width: 245px;
+}
+.frist_imangem{
+    height: 200px;
+    width: 200px;
+}
+.slogan{
+    color: #fff;
+    background-image: linear-gradient(to right, #222 50%, #fff 50%);
+    font-size: 20pt;
+    font-family: 'Courier New';
+    font-weight: 600;
+    text-align: justify;
+
+    padding-left: 20px;
+    
+}
+.test00{
+    opacity: 1;
+    height: 125px;
+    width: 245px;
+    
+}
+.down_shoot{
+    font: 900 11pt 'simples';
+    text-align: justify;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.down_shoot>li{
+    list-style-type: initial;
+}

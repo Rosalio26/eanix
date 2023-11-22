@@ -1,0 +1,171 @@
+
+
+#header2{
+    background-color: #ffffff;
+    border-top: 0.1px solid rgba(0, 0, 0, 0.040);
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.085);
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.contest{
+    box-shadow: none;
+    background-color: #ffffff;
+    border: none;
+    color: #222;
+    display: block;
+    font-size: 11pt;
+    font-family: robot;
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 0.1px 0.1px 0.1px black;
+    padding: 8px;
+    width: 100%;
+}
+.contest:hover{
+    background-color: #000000;
+    box-shadow: 1px 1px 13px #0000002a;
+    color: #fff;
+    border: none;
+}
+.hidden_flow{
+    background-color: rgb(106, 106, 106);
+    box-shadow: 1px 1px 13px #0000002a;
+    display: none;
+    opacity: 0;
+    transition: opacity; 
+    left: 0;
+    top: 80px;
+    padding: 0px;
+    right: 0;
+}
+.frist_getch{
+    margin: 0px 80% 0px 10%;
+}
+._drop:hover >.hidden_flow{
+    display: block;
+    opacity: 1;
+    position: absolute;
+    margin-bottom: 10px;
+}
+.hidden_flow>li{
+    text-align: justify;
+}
+.hidden_flow>li>a{
+    background-color: #7d7d7d4a;
+    color: #000000;
+    display: block;
+    font-family: 'navmenu';
+    font-size: 10pt;
+    font-weight: 100;
+    text-decoration-color: #000000;
+    margin: 1px;
+    padding: 5px;
+}
+.hidden_flow>li>a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0px;
+}
+
+@media (max-width:1300px) {
+    #header2{
+        background-color: transparent;
+        box-shadow: 0.3px 0.3px 0px #222;
+        /*border-top: 1px solid rgba(0, 0, 0, 0.2);*/
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        
+        margin: 40px 200px;
+    }
+}
+
+@media (max-width:750px) {
+    #header2{
+        background-color: transparent;
+        display: block;
+        padding: 15px;
+        margin:0px 100px;
+    }
+    .contest{
+        box-shadow: none;
+        background-color: #fff;
+        border: dashed;
+        font-size: 20pt;
+        font-family: logo;
+        text-align: justify;
+        margin-bottom: 5px; 
+        padding: 10px;
+        padding-left: 60px;
+        width: 100%;
+    }
+    .contest:hover{
+        box-shadow: 1px 1px 13px #0000002a;
+        border: none;
+    }
+    .hidden_flow{
+        background-color: rgb(106, 106, 106);
+        box-shadow: 1px 1px 13px #0000002a;
+        display:none;
+        width: 100%;
+        opacity: 0;
+        transition: opacity; 
+        left: 0;
+        top: 0;
+        margin-top: 0;
+        margin-bottom: 10px;
+        right: 0;
+    }
+    ._drop:hover >.hidden_flow{
+        display: block;
+        opacity: 1;
+        position: relative;
+    }
+    .hidden_flow>li{
+        text-align: justify;
+    }
+    .hidden_flow>li>a{
+        background-color: rgb(255, 255, 255);
+        color: #000000;
+        display: block;
+        font-size: 15pt;
+        font-weight: 900;
+        text-decoration-color: #000000;
+        margin: 1px;
+        padding: 5px;
+    }
+    .hidden_flow>li>a:hover{
+        background-color: #000000;
+        color: #fff;
+        border-bottom: #ffffff 4px;
+    }
+    #centere{
+        display: none;
+    }
+    #sup_centere{
+        display: flex;
+        padding-top: 50px;
+    }
+    #centered{
+        border: solid 0.1px;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 10pt;
+        margin-top: 0px;
+        margin-bottom: 60px;
+        padding: 5px;
+    }
+    #sup_centered{
+        background-color: rgba(0, 0, 0, 0.729);
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        margin-bottom: 60px;
+        padding: 7px;
+    }
+}

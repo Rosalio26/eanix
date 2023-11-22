@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+input[type="checkbox"]{
+    display: none;
+}
+label{
+    font-family: 'navmenu';
+    font-size: 11pt;
+    font-weight: 100;
+    display: block;
+    padding: 2px;
+    /*color: #fff;*/
+    /*background-color: #0076ff;*/
+}
+.accordion:last-child > label, .accordion:last-child >#accordion-content{
+    border: none;
+}
+#accordion-content{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    display: none;
+    position: absolute;
+}
+input:checked ~ #accordion-content{
+    display: block;
+    cursor: row-resize;
+}
+#accordion-content::after~:checked:hover{
+    display: block;
+}
