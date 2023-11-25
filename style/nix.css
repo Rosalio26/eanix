@@ -1,8 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 header{
-    background-color: blue;
-    padding: 10px;
+    background-color: rgb(250, 253, 255);
+
+    justify-content: space-between;
+}
+
+header > nav > ul > li > a{
+    color: black;
 }
