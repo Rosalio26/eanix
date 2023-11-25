@@ -3,6 +3,12 @@
     padding: 0;
     text-decoration: none;
 }
+@font-face {
+    font-family: Logo;
+    font-size: 14px;
+    font-weight: 500;
+    src: url('../font/Eanix_open_sans.ttf');
+}
 
 /*Configuracoes do header*/
 header{
@@ -12,15 +18,19 @@ header{
     padding: 10px;
 }
 header > #logo{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    font-family: Logo;
 }
-.line_bet_lg{
+header > div > .line_bet_lg{
     background-color: black;
-    padding: 1px;
+    margin: 1px;
+    padding: 1.3px;
 }
-._circle_logo_terminal{
+header > div > ._circle_logo_terminal{
     background-color: blue;
+    border-radius: 100px;
     color: white;
+    padding: 3.5px;
 }
 header > nav > ul > li{
     display: inline;
