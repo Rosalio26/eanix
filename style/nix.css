@@ -4,9 +4,11 @@
     text-decoration: none;
 }
 @font-face {
+    font-family: menu_bar;
+    src: url('../font/menu.ttf');
+}
+@font-face {
     font-family: Logo;
-    font-size: 14px;
-    font-weight: 500;
     src: url('../font/Eanix_open_sans.ttf');
 }
 
@@ -20,6 +22,8 @@ header{
 header > #logo{
     background-color: rgb(255, 255, 255);
     font-family: Logo;
+    font-weight: 600;
+    margin-left: 50px;
 }
 header > div > .line_bet_lg{
     background-color: black;
@@ -32,10 +36,22 @@ header > div > ._circle_logo_terminal{
     color: white;
     padding: 3.5px;
 }
+header > nav > ul{
+    margin-right: 50px;
+}
 header > nav > ul > li{
+    font-family: menu_bar;
+    font-weight: normal;
     display: inline;
 }
 header > nav > ul > li > a{
     color: black;
     margin-right: 20px;
+}
+
+/*Configuracoes do main*/
+main> div> .fond_pni{
+    background-image: url('../imagens/fond_pni.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
