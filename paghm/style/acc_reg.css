@@ -1,5 +1,6 @@
 *{
     margin: 0; padding: 0;
+    list-style-type: none; 
 }
 header{
     background-color: rgba(0, 0, 0, 0.062);
@@ -9,11 +10,44 @@ main{
     text-align: center;
 }
 .company_inform{
-    
+    background-color: rgba(211, 211, 211, 0.384);
+    display: grid;
+    grid-template-areas: 
+       'header_reg header_reg header_reg header_reg'
+       'company_inform_person company_inform_person emergency_company_inform emergency_company_inform'
+
+    ;
+    margin: 20px 300px 20px 300px;
+    padding: 20px;
+}
+.photo_of_cv{
+    background-color: rgb(0, 89, 255);
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.header_reg{
+    grid-area: header_reg;
 }
 .company_inform_person{
-    text-align: left;
+    grid-area: company_inform_person;
+    /*margin-left: 50%;*/
 }
 .emergency_company_inform{
-    
+    grid-area: emergency_company_inform;
+    /*margin-right: 50%;*/
+}
+
+.key_activation{
+    font-size: 9pt;
+    display: block; 
+    text-align: center; 
+    color: white; 
+    border-radius: 10px; 
+    background-color: black; 
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 70%;
+    padding: 1px;
 }
