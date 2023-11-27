@@ -40,3 +40,29 @@ label{
 header> nav> ul> li{
     display: inline;
 }
+
+/*Configuracoes do MAIN*/
+.confo_company_dashoud{
+    display: grid;
+    grid-template-areas: 
+    'header_company_position header_company_position header_company_position header_company_position header_company_position header_company_position'
+    'left_manu_work_studio_by_sector main_work_area main_work_area main_work_area main_work_area right_hidden_content_work_moreinform'
+    ;
+}
+.header_company_position{
+    background-color: rgb(0, 136, 255);
+    grid-area: header_company_position;
+}
+.left_manu_work_studio_by_sector{
+    background-color: red;
+    grid-area: left_manu_work_studio_by_sector;
+    padding: 20px;
+}
+.main_work_area{
+    background-color: yellow;
+    grid-area: main_work_area;
+}
+.right_hidden_content_work_moreinform{
+    background-color: orange;
+    grid-area: right_hidden_content_work_moreinform;
+}
