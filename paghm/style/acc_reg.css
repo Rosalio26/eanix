@@ -1,0 +1,19 @@
+*{
+    margin: 0; padding: 0;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.062);
+    padding: 1.5%;
+}
+main{
+    text-align: center;
+}
+.company_inform{
+    
+}
+.company_inform_person{
+    text-align: left;
+}
+.emergency_company_inform{
+    
+}
