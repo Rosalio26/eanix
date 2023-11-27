@@ -1,0 +1,31 @@
+*{
+    margin: 0; padding: 0;
+}
+
+/*Configuracoes do HEADER*/
+header{
+    background-color: rgba(0, 0, 0, 0.062);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 20px 10px 20px;
+}
+.info_employer_reg{
+    background-color: rgb(0, 81, 255);
+
+    text-align: center;
+}
+.photo_of_employer{
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+.mode_internal{
+    color: red;
+}
+header> nav> ul> li{
+    display: inline;
+}
