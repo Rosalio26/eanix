@@ -51,12 +51,14 @@ header> nav> ul> li{
 }
 .header_company_position{
     background-color: rgb(0, 136, 255);
+    font-size: 15pt;
     grid-area: header_company_position;
+    padding: 10px;
 }
 .left_manu_work_studio_by_sector{
     background-color: red;
     grid-area: left_manu_work_studio_by_sector;
-    padding: 20px;
+    padding: 10px;
 }
 .main_work_area{
     background-color: yellow;
